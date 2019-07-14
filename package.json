@@ -1,0 +1,27 @@
+{
+  "name": "explorably",
+  "version": "0.0.1",
+  "description": "Explorably Prototype",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patch-22/explorably-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patch-22/explorably-prototype/issues"
+  },
+  "homepage": "https://github.com/patch-22/explorably-prototype#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
