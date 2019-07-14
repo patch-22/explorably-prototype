@@ -3,6 +3,9 @@
 body {
     margin: 0;
     font-family: "Lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 
 * {
@@ -15,16 +18,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .wrapper {
     display: flex;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 .col-left {
     padding: 2rem 4rem;
     background-color: #D6EFFA;
     flex: 40%;
-    min-height: 100vh;
+    height: 100%;
+    /* min-height: 100vh; */
 }
 .col-right {
     padding: 1rem;
     flex: 60%;
+    height: 100%;
 }
 

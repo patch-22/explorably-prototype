@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/patch-22/explorably-prototype#readme",
   "dependencies": {
+    "d3": "^5.9.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
