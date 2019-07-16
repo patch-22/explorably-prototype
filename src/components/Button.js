@@ -1,6 +1,4 @@
 import React from 'react'
-import { render } from 'react-dom'
-import './App.css'
 
 class Button extends React.Component {
   render() {

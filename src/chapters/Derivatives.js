@@ -1,12 +1,12 @@
 import React from 'react'
-import Prologue from './Prologue'
-import Leaf from './Leaf'
-import Epilogue from './Epilogue'
-import Sidebar from './Sidebar'
-import Content from './Content'
-import Button from './Button'
-import ThreeDemo from './ThreeDemo'
-import More from './More'
+import Prologue from '../components/Prologue'
+import Leaf from '../components/Leaf'
+import Epilogue from '../components/Epilogue'
+import Sidebar from '../components/Sidebar'
+import Content from '../components/Content'
+import Button from '../components/Button'
+import ThreeDemo from '../components/ThreeDemo'
+import More from '../components/More'
 
 export default class Chapter extends React.Component {
   constructor(props) {
